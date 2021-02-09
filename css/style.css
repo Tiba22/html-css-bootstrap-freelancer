@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* debug */
+[class*="col-"]{
+  min-height: 100px;
+  background-color: ;
+  border: solid 1px #000;
+}
+
+header {
+  height: 100px;
+  background-color: blue;
+}
+
+.bootstrap, .about {
+  width: 100%;
+  background-color: #1ABC9C;
+  height: 400px;
+}
+
+.contactme {
+  height: 700px;
+}
+
+/* regole generali */
+.contenitore {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contactme > .row:last-of-type {
+  margin-top: 30px;
+}
+
+.portfolio {
+  width: 80%;
+  margin: auto;
+}
+
+.prefoot {
+  background-color: #2C3E50;
+  width: 100%;
+  margin: auto;
+}
+
+.lastfoot {
+  background-color: #1A252F;
+}
