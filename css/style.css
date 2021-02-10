@@ -1,53 +1,268 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 
 /* debug */
 [class*="col-"]{
-  min-height: 100px;
-  background-color: ;
-  border: solid 1px #000;
-}
-
-header {
-  height: 100px;
-  background-color: blue;
-}
-
-.bootstrap, .about {
-  width: 100%;
-  background-color: #1ABC9C;
-  height: 400px;
 }
 
 .contactme {
-  height: 700px;
+  height: auto;
 }
 
 /* regole generali */
+.contnomargin {
+  margin: 0;
+  padding: 0;
+}
+
 .contenitore {
   width: 80%;
   margin: 0 auto;
 }
 
-.contactme > .row:last-of-type {
-  margin-top: 30px;
+.contenitorenav {
+  width: 70%;
+  margin: auto;
+}
+
+header .navbar-default {
+  background-color: #2C3E50;
+  border: none;
+}
+
+header .navbar-brand {
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+  line-height: 70px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9vw;
+}
+
+body {
+  padding-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bootstrap {
+  text-align: center;
+  background-color: #1ABC9C;
+}
+
+.imgavatar  {
+  width: 25rem;
+  margin-top: 50px;
+}
+
+.testoavatar > h1 {
+  font-size: 3.5vw;
+  font-weight: bold;
+  color: white;
+  margin-top: 40px;
+}
+
+.testoavatar > span {
+  color: white;
+  font-size: 2.6vw;
+  margin: 25px 0;
+}
+
+.testoavatar > p {
+  color: white;
+  font-size: 1.3vw;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 70px;
 }
 
 .portfolio {
-  width: 80%;
+  width: 70%;
   margin: auto;
+  text-align: center;
+  color: #2C3E50;
+}
+
+.testoportfolio > h1 {
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 2.5vw;
+  margin-bottom: 20px;
+}
+
+.testoportfolio > span {
+  font-size: 2.5vw;
+  margin-bottom: 30px;
+}
+
+.fotoportfolio > img {
+  width: 90%;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+
+.about {
+  text-align: center;
+  color: white;
+  background-color: #1ABC9C;
+  margin-top: 100px;
+
+}
+
+.titoloabout > h1 {
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 2.5vw;
+  margin-bottom: 20px;
+}
+
+.titoloabout > span {
+  font-size: 2.5vw;
+  margin-bottom: 30px;
+}
+
+.minititoliabout {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  font-size: 2vh;
+  line-height: 1.7;
+}
+
+.freedownload {
+  margin-top: 50px;
+  background-color: inherit;
+  font-size: 2vh;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px 10px 10px;
+  border-radius: 7px;
+  margin-bottom: 100px;
+}
+
+.freedownload:hover {
+  margin-top: 20px;
+  background-color: white;
+  font-size: 2vh;
+  color: black;
+  border: 2px solid white;
+  transition-duration: 0.6s;
+}
+
+.fa-download {
+  width: 30px;
+}
+
+.contactme {
+  text-align: center;
+  color: #2C3E50;
+}
+
+.contactform {
+  width: 40%;
+  margin: auto;
+  text-align: left;
+}
+
+.titolocontact > h1 {
+  font-weight: bold;
+  margin-top: 50px;
+  font-size: 2.5vw;
+  margin-bottom: 20px;
+}
+
+.titolocontact > span {
+  font-size: 2.5vw;
+  margin-bottom: 30px;
+}
+
+.form_t {
+  width: 100%;
+  margin: 40px 0;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 30px;
+  font-size: 1.2vw;
+  outline:none;
+}
+
+.form_t:last-of-type {
+  padding-bottom: 150px;
+}
+
+.sendbutton {
+  margin-bottom: 50px;
+  padding: 20px 40px 20px 40px;
+  font-size: 1.1vw;
+  background-color: #1ABC9C;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 12px;
+  transition-duration: 0.6s;
+}
+
+.sendbutton:hover {
+  background-color: #159A80;
+  color: white;
+}
+
+.contenitoreprefoot {
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
 
 .prefoot {
   background-color: #2C3E50;
   width: 100%;
   margin: auto;
+  color: white;
+}
+
+.testoprefoot {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: bold;
+}
+
+.testoprefoot > a > button {
+  margin: 5px 10px;
+  background-color: #2C3E50;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+
+.testoprefoot > a > button:hover {
+  background-color: white;
+  color: #2C3E50;
+}
+
+#startbootstraplink {
+  color: #1ABC9C;
+}
+
+#startbootstraplink:hover {
+  color: #159A80;
 }
 
 .lastfoot {
   background-color: #1A252F;
+  text-align: center;
+}
+
+.lastfoot  p {
+  color: white;
+  line-height: 100px;
 }
