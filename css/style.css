@@ -11,6 +11,12 @@
   margin: 0 auto;
 }
 
+body {
+  padding-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Regole Navbar */
 .contenitorenav {
   width: 70%;
   margin: auto;
@@ -47,11 +53,7 @@ header .navbar-brand {
   color: #1ABC9C;
 }
 
-body {
-  padding-top: 100px;
-  font-family: 'Montserrat', sans-serif;
-}
-
+/* Regole jumbo */
 .bootstrap {
   text-align: center;
   background-color: #1ABC9C;
@@ -83,6 +85,7 @@ body {
   margin-bottom: 70px;
 }
 
+/* Regole Portfolio */
 .portfolio {
   width: 70%;
   margin: auto;
@@ -108,12 +111,13 @@ body {
   border-radius: 20px;
 }
 
+
+/* Regole sezione About */
 .about {
   text-align: center;
   color: white;
   background-color: #1ABC9C;
   margin-top: 100px;
-
 }
 
 .titoloabout > h1 {
@@ -162,6 +166,7 @@ body {
   width: 30px;
 }
 
+/* Regole sezione Contact */
 .contactme {
   text-align: center;
   color: #2C3E50;
@@ -217,6 +222,7 @@ body {
   color: white;
 }
 
+/* Regole Footer */
 .contenitoreprefoot {
   width: 60%;
   margin: auto;
